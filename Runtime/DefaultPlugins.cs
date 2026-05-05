@@ -47,6 +47,7 @@ public sealed class DefaultPlugins : IPluginGroup, IPlugin
         new MaterialPlugin(),
         new ModelsPlugin(),
         new TexturesPlugin(),
+        new LightingPlugin(),
         new TimePlugin(),
         new InputPlugin(),
         new EcsPlugin(),
